@@ -38,7 +38,7 @@ div.navcol {
 }
 
 
-.nav_last, .nav_prev, .nav_dist, .nav_notes, .nav_pics, .nav_about, .nav_travel, .nav_home, .nav_news {
+.nav_paws, .nav_last, .nav_prev, .nav_dist, .nav_notes, .nav_pics, .nav_about, .nav_travel, .nav_home, .nav_news {
     text-align:center;
     color:#000000;
     text-decoration:none;
@@ -76,6 +76,27 @@ td.nav_news:hover {
     border-radius: 10px;
     color:black;
     background:#ffd133;
+    border:1px solid #000088; 
+    border-spacing: 0;
+    -o-transition: all 0.05s ease-in-out;
+    -webkit-transition: all 0.05s ease-in-out;
+    -moz-transition: all 0.05s ease-in-out;
+    -ms-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;  
+}
+
+
+
+td.nav_paws {
+    border-bottom:2px solid #000088;
+}
+
+td.nav_paws:hover { 
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color:black;
+    background-color:#ffd133;
     border:1px solid #000088; 
     border-spacing: 0;
     -o-transition: all 0.05s ease-in-out;
